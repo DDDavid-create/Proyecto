@@ -3,5 +3,15 @@ function ingresarTexto(msj){
     return mensaje
 }
 
+function ingresarNumero(msj){
+    let num = Number(prompt(msj))
+    return num
+}
+
+
 let msj = ingresarTexto("Ingrese el nombre de usuario")
-alert(msj)
+let num = ingresarNumero("Ingrese su numero de cel")
+
+alert(`Su nombre es: ${msj} y su num de cel: ${num}`)
+
+
